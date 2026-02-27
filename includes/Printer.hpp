@@ -17,7 +17,7 @@ public:
     void Print(SetRoutes& set)
     {
         std::cout << "In set: " << "\n";
-        for (auto transport : set.GetSet())
+        for (auto transport : set.GetTransports())
         {
             std::cout << "Route: " << transport->GetRoute() << ", price: " << transport->GetPrice() << "\n";
         }

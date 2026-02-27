@@ -8,4 +8,9 @@ protected:
 public:
     Train(const std::string route, const int price, const std::vector<std::string> stops, const int countCarriage) : LandTransport(route, price, stops), countCarriage_(countCarriage) {}
     void ShowInfo() override;
+    std::string GetInfo() override;
+    void SetStops(std::vector<std::string> stops);
+    void SetCountCarriage(int countCarriage);
+    std::vector<std::string> GetStops();
+    int GetCountCarriage();
 };

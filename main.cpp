@@ -19,6 +19,7 @@ int main()
 
     sr.Add(ft.create("a-b", 100, {"c","d"}, 3));
     sr.Add(fp.create("a-b", 100, 3, "air"));
+    sr.Delete(0);
 
     pr.Print(ft.create("a-b", 100 , {"n","aasdwwdasdwasd wasd w"}, 4));
     pr.Print(sr);
