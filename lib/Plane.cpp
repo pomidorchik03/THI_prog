@@ -10,7 +10,7 @@ void Plane::ShowInfo()
 
 std::string Plane::GetInfo()
 {
-    return  "PLANE           Route: " + route_ + "   | Price: " + std::to_string(price_) + "   | Max Altitude: " + std::to_string(maxAltitude_) + "   | Name Airline; " + nameAirline_;
+    return  "PLANE           Route: " + route_ + "   | Price: " + std::to_string(price_) + "   | Max Altitude: " + std::to_string(maxAltitude_) + "   | Name Airline: " + nameAirline_;
 }
 
 int Plane::GetMaxAltitude()
