@@ -34,7 +34,7 @@ public:
         int totalPrice = 0;
         for (ITransport* transport : transports_)
         {
-            totalPrice += transport->GetPrice() * 2;
+            totalPrice += transport->GetPrice();
         }
         return totalPrice;
     }
